@@ -1,72 +1,87 @@
-html{
+html {
+    overflow: hidden;
     width: 100%;
-    height: 100%;
+    height: 100%
 }
+
 body {
+    overflow: hidden;
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
-    padding: 0;
+    padding: 0
 }
 
-p{
+p {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none;
+    user-select: none
 }
 
 .container {
-    max-width: 600px;
+    overflow: hidden;
+    max-width: 700px;
     display: grid;
     grid-template-rows: 1fr;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 
 .title {
+    overflow: hidden;
     margin: 0;
     text-align: center;
+    padding-right: 1em
 }
 
 text {
-    color: white;
+    overflow: hidden;
+    color: #fff
 }
 
 #nav {
+    overflow: hidden;
     list-style: none;
-    text-align: center;
+    text-align: center
 }
 
 #nav li {
-    display: inline;
+    overflow: hidden;
+    display: inline
 }
 
 #nav a {
+    overflow: hidden;
     display: inline-block;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 10px
 }
 
 a:hover {
-    text-decoration: underline;
+    overflow: hidden;
+    text-decoration: underline
 }
+
 a {
+    overflow: hidden;
     font-family: 'Open Sans';
     text-decoration: none;
-    color: white;
+    color: #fff
 }
 
 ul {
+    overflow: hidden;
     padding: 0;
-    margin: 0;
+    margin: 0
 }
 
 .linkbox {
-    margin-top: 1em;
+    overflow: hidden;
+    margin-top: 1em
 }
